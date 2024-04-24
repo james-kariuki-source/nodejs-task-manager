@@ -34,7 +34,7 @@ Before you begin, ensure you have met the following requirements:
    - Create a `.env` file in the root directory.
    - Add the following variables:
 
-     PORT=3000
+     PORT=3000  
      MONGODB_URI=your_mongodb_connection_string
 
 5. Start the application:
@@ -48,7 +48,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## API Endpoints
 
-- `POST  /api/v1/tasks`: Get all tasks.
+- `POST  /api/v1/tasks`: Create a new tasks.
 - `GET  /api/v1/tasks`: Get all tasks.
 - `GET /api/v1/tasks/:id`: Get a specific task by ID.
 - `PATCH /api/v1/tasks/:id`: Update a task.
